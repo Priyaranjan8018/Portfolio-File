@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    border: solid 0px black;
+    height: 595px;
+    width: auto;
+}
+.headingfac{
+    border: solid 0px black;
+    height: 200px ;
+    width: 500px;
+    margin-left: 200px;
+    margin-top: 180px;
+}
+img{
+    height: 90px;
+}
+.headingfac p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(28,30,33);
+    font-size: 20px;
+    padding-left: 27px;
+}
+.loginpage{
+    border: solid 2px rgba(128, 128, 128, 0.074);;
+    height: 340px;
+    width: 350px;
+    margin-left: 700px;
+    margin-top: -255px;
+    background: rgba(128, 128, 128, 0.074);
+    /* display: flex; */
+    /* align-items: center; */
+    border-radius: 10px;
+    
+}
+.loginpage form{
+    border: solid 0px red;
+    width: 315px;
+    height: 240px;
+    margin: 15px;
+    margin-top: 10px;
+    box-shadow: 10px;
+
+}
+.loginpage input{
+    border: solid 0px red;
+    width: 300px;
+    height: 50px;
+    margin: 5px;
+    font-size: 15px;
+    border-radius: 10px;
+    
+}
+.loginpage ::placeholder{
+    padding: 15px;
+}
+.loginpage h3 input{
+    color: white;
+    background: rgb(28,119,242);
+
+}
+.loginpage input:hover{
+    border-color: rgb(28,119,242);
+}
+.loginpage h4 input{
+    text-align: center;
+  
+}
+.creat{
+    border: solid 0px red;
+    width: 220px;
+    height: 50px;
+    text-align: center;
+    margin-left: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(60,174,37);
+    border-radius: 10px;
+}
+.creat a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+.text-log h5{
+    text-align: center;
+    line-height: 50px;
+    font-size: 11px;
+    font-family: Arial, sans-serif;
+    padding-left: 600px;
+    color: rgb(28,30,33);
+}
+.text-log h5 a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}

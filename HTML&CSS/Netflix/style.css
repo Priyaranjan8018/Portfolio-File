@@ -1,0 +1,531 @@
+* {
+    margin: 0px;
+}
+
+.main-body {
+    /* border: solid 2px black; */
+    height: 590px;
+    width: auto;
+    background-image: url(./image/bg-1.jpg);
+
+}
+
+.main-body-1 {
+    border: solid 1px black;
+    height: 590px;
+    width: auto;
+    background: linear-gradient(black, rgba(0, 0, 0, 0.084), black);
+
+}
+
+.nev-body {
+    /* border: solid 2px yellow; */
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.nev-img img {
+    /* border: solid 0px white; */
+    height: 110px;
+    width: 145px;
+    margin-right: 383px;
+    margin-top: -20px;
+}
+
+.nev-language-signin {
+    /* border: solid 2px white; */
+    height: 50px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    margin: 5px;
+
+}
+
+.nev-language-signin select {
+    border: solid 1px gray;
+    height: 27px;
+    width: 150px;
+    border-radius: 3px;
+    background: rgba(0, 0, 0, 0.542);
+    color: white;
+    margin: 10px;
+    font-size: 14px;
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+
+}
+
+.nev-language-signin input {
+    border: solid 4px red;
+    height: 25px;
+    border-radius: 3px;
+    background: red;
+    color: white;
+    margin: 10px;
+}
+
+.nev-language-signin select option {
+    border-color: white;
+}
+
+.nev-language-signin input:hover {
+    background: red;
+    opacity: 0.9;
+}
+
+.main-body-text {
+    border: solid 0px yellow;
+    height: 200px;
+    width: auto;
+    margin-top: 152px;
+}
+
+.background-body-text {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background: rgba(0, 0, 0, 0);
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: 19.2px;
+    margin-left: 31px;
+    font-weight: 900;
+}
+
+.background-body-text p {
+    font-weight: 500;
+    line-height: 50px;
+}
+
+.background-body-text .p2 {
+    line-height: 27px;
+    font-size: 14.5px;
+    font-family: Netflix, sans-serif;
+}
+
+.background-body-start {
+    /* border: solid 2px red; */
+    height: 45px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 355px;
+    margin-top: 10px;
+}
+
+.background-body-start .email {
+    border: solid 1px gray;
+    width: 296px;
+    height: 45px;
+    margin: 4px;
+    border-radius: 5px;
+
+}
+
+.email input {
+    border: solid 0px gray;
+    width: 291px;
+    height: 43px;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.455);
+}
+
+.background-body-start .get {
+    border: solid 1px rgb(193, 17, 23);
+    background: rgb(193, 17, 23);
+    width: 158px;
+    height: 45px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+}
+
+.background-body-start .get:hover {
+    background: rgba(193, 17, 23, 0.592);
+}
+
+.background-body-start .email ::placeholder {
+    color: rgba(245, 245, 245, 0.74);
+    padding-left: 12px;
+
+}
+
+.small-border {
+    border: solid 2px black;
+    height: 7px;
+    width: auto;
+    background: rgb(33, 32, 32);
+}
+
+.advatise-body {
+    border: solid 0px greenyellow;
+    height: 465px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: black;
+}
+
+.advatise-body-inside-body {
+    border: solid 0px yellowgreen;
+    height: 360px;
+    width: 100%;
+    display: flex;
+    margin: 105px;
+    justify-content: space-between;
+}
+
+.text-body {
+    border: solid 0px red;
+    height: 100px;
+    width: 450px;
+    font-family: Netflix,sans-serif ;
+    color: white;
+    margin-top: 127px;
+    margin-left: 20px;
+}
+
+.text-body h1 {
+    font-weight: 900;
+    line-height: 70px;
+    margin-top: -25px;
+    margin-left: 40px;
+}
+
+.text-body p {
+    font-size: 17px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 40px;
+
+}
+
+.screen-body img {
+    border: solid 0px red;
+    height: 360px;
+    width: 450px;
+    margin-top: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+
+}
+
+.screen-body-2 img{
+    border: solid 0px red;
+    height: 360px;
+    width: 450px;
+}
+.text-body-2{
+    border: solid 0px red;
+    height: 130px;
+    width: 450px;
+    font-family: Netflix,sans-serif ;
+    color: white;
+    margin-top: 115px;
+    margin-left: 20px;
+    text-align: left;
+}
+.text-body-2 h1 {
+    font-weight: 900;
+    
+}
+.text-body-2 p {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Netflix,sans-serif ;
+    text-align: justify;
+    position: relative;
+
+}
+.downloded{
+    border: solid 1px gray;
+    height: 70px;
+    width: 250px;
+    position: absolute;
+    margin-top: 259px;
+    margin-left: 100px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background:black;
+    
+}
+.small-img{
+    border: solid 0px yellow;
+    height: 60px;
+    width: 40px;
+    background-image: url(./image/boxshot.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+.dowlode-text{
+    color: white;
+    margin-right: 25px;
+    font-family: Netflix,sans-serif ;
+    font-size: 14px;
+    font-weight: 600;
+}
+.dowlode-text h5{
+    color: rgb(0,113,235);
+}
+.downlode-button{
+    border: solid 0px  blue;
+    height: 40px;
+    width: 40px;
+    background-image: url(./image/download-icon.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.color-black{
+    border: solid 0px white;
+    position: absolute;
+    height: 29px;
+    width: 450px;
+    margin-top: 100px;
+    background: linear-gradient(black, rgba(0, 0, 0, 0.084), black);
+}
+.screen-body-3 img {
+    border: solid 0px yellow;
+    height: 360px;
+    width: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+}
+.screen-body-3 .screen-video-body-4 video{
+    border: solid 0px red;
+    height: 180px;
+    width: 280px;
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+
+
+.text-body-3 {
+    border: solid 0px red;
+    height: 100px;
+    width: 450px;
+    font-family: Netflix,sans-serif ;
+    color: white;
+    margin-top: 125px;
+    margin-left: 20px;
+}
+
+.text-body-3 h1 {
+    font-weight: 900;
+    line-height: 70px;
+    margin-top: -25px;
+    margin-left: 45px;
+}
+
+.text-body-3 p {
+    font-size: 17px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 45px;
+
+}
+.advatise-body-inside-body-1{
+    border: solid 0px yellowgreen;
+    height: 444px;
+    width: 100%;
+    display: flex;
+    margin: 105px;
+    justify-content: space-between;
+}
+
+.advatise-body-1{
+    border: solid 0px greenyellow;
+    height: 800px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: black;
+    
+
+}
+.line-border-heading{
+    border: solid 0px yellowgreen;
+    height: 60px;
+    width: 100%;
+    margin-top: -80px; 
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Netflix,sans-serif;
+    font-size: 20px;
+    font-family: 900px;
+}
+.line-by-line-border-2{
+    border: solid 0px yellowgreen;
+    height: 450px;
+    width: 100%;
+    display: flex;
+    margin: 150px;
+    justify-content: space-between;
+    display: inline-block;
+    margin-top: 40px;
+}
+.line-border-3 {
+    border: solid 0px red;
+    height: 62px ;
+    width: auto;
+    margin: 7px;
+    color: rgb(255,255,255);
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    font-family: Netflix,sans-serif;
+    font-size: 20px;
+    background: rgb(45,45,45);
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.line-border-3 i{
+   border: solid 0px blue;
+   margin-right: 20px;
+}
+.line-border-3:hover{
+    background: rgba(103, 100, 100, 0.825);
+}
+.background-body-start-1 {
+    border: solid 0px red;
+    height: 45px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 180px;
+    margin-top: 20px;
+}
+
+.background-body-start-1 .email {
+    border: solid 1px gray;
+    width: 296px;
+    height: 45px;
+    margin: 4px;
+    border-radius: 5px;
+
+}
+
+.email input {
+    border: solid 0px gray;
+    width: 291px;
+    height: 43px;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.455);
+}
+
+.background-body-start-1 .get {
+    border: solid 1px rgb(193, 17, 23);
+    background: rgb(193, 17, 23);
+    width: 158px;
+    height: 45px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+}
+
+.background-body-start-1 .get:hover {
+    background: rgba(193, 17, 23, 0.592);
+}
+
+.background-body-start-1 .email ::placeholder {
+    color: rgba(245, 245, 245, 0.74);
+    padding-left: 12px;
+
+}
+.line-by-line-border-2 h3{
+    text-align: center;
+    font-family: netflix,sans-serif;
+    font-size: 15px;
+   margin-top: 40px;
+}
+.footer{
+    border: solid 2px none;
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    display: flex;
+}
+.footer-heading{
+    border: solid 2px none;
+    width: 70%;
+    height: 400px;
+    margin: 70px 120px;
+    
+
+}
+.footer-heading p{
+    color:rgba(255, 255, 255, 0.7);
+    font-size: small;
+}
+.footer-heading p a{
+    color: white;
+}
+.footer-link-heading{
+    border: solid 2px none;
+    width: 98%;
+    height: 300px;
+    margin-top: 40px;
+    display: flex;
+}
+.anchor-heading{
+    border: solid 2px none;
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    font-family: netflix,sans-serif;
+    font-size: smaller;
+}
+.anchor-heading a{
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    text-decoration: underline;
+    font-family: netflix,sans-serif;
+    font-size: smaller;
+}
+.anchor-heading-1{
+    border: solid 2px none;
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    margin-left: 280px;
+    font-size: smaller;
+}
+.anchor-heading-1 a{
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    text-decoration: underline;
+    font-family: netflix,sans-serif;
+    font-size: smaller;
+}
+.anchor-heading-2{
+    border: solid 2px none;
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    margin-left: 550px;
+    font-size: smaller;
+}
+.anchor-heading-2 a{
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    text-decoration: underline;
+    font-family: netflix,sans-serif;
+    font-size: smaller;
+    
+}

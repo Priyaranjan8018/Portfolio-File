@@ -1,0 +1,555 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.body {
+  border: solid 2px black;
+  height: 600px;
+  width: 100%;
+  background-image: url(./image/new_homepage_background.png);
+  background-size: cover;
+  display: flex;
+  position: fixed;
+
+}
+
+.header-logo {
+  border: solid 0px red;
+  height: 60px;
+  width: 20%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 65px;
+}
+
+.header-logo a img {
+  width: 115px;
+  height: 50px;
+
+}
+
+.header-nav {
+  border: solid 0px red;
+  height: 60px;
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 601px;
+  margin-right: 100px;
+  font-family: Avenir,sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  margin-top:-64px;
+  
+}
+
+.header-nav a {
+  text-decoration: none; 
+  color: white;
+  letter-spacing: -0.2px;
+}
+.body-heading-intro{
+  border:  solid 0px red;
+  height: 130px;
+  width: auto;
+ margin-top: 30px;
+ margin-left: 110px;
+ color: white;
+}
+.body-heading-intro h2{
+font-size:50px;
+line-height: 50px;
+padding-left: 100px;
+font-family: "handsome-pro",sans-serif !important;
+letter-spacing: -0.16px;
+font-weight: 300;
+}
+.body-heading-intro h1{
+font-size:90px;
+line-height: 45px;
+font-family: Avenir,sans-serif;
+letter-spacing: -1.2px;
+font-weight: 600;
+
+}
+.body-heading-intro span{
+  font-size:65px;
+  line-height: 60px;
+  padding-left: 18px;
+  font-family: "handsome-pro",sans-serif !important;
+  letter-spacing: -0.16px;
+  font-weight: 700;
+}
+.lighting-text{
+border:  solid 0px red;
+height: 70px;
+width: 550px;
+margin-left: 110px;
+background-image: url(./image/homepage_tagline.png);
+background-size: contain;
+background-repeat: no-repeat;
+}
+.qr-store{
+  border: solid 0px red;
+  height: 105px;
+  width: 425px;
+  margin-left: 232px;
+  margin-top: -109px;
+}
+.qr-code{
+      border: solid 0px red;
+      width: 105px;
+      height: 105px;
+      margin-left:110px ;
+      background-image: url(./image/qr-code.png);
+      background-size: cover;
+}
+h5{
+  line-height: 245px;
+  text-align: center;
+  font-size: 14px;
+  color: white;
+  font-family: Avenir,sans-serif;
+}
+
+.app-store img{
+  border: solid 0px red;
+  height: 50px;
+  width: 150px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.play-store img{
+  border: solid 0px red;
+  height: 50px;
+  width: 150px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.footer{
+border:solid 0px yellow;
+height: 110px;
+width: 1000px;
+margin-top: 75px;
+margin-left: 109px;
+display: flex;
+justify-content: space-between;
+}
+.web-logo-text-1{
+border: solid 0px red;
+height: 110px;
+width: 140px;
+color: white;
+text-align: center;
+}
+.web-logo-text-1 h3 {
+  padding-top: 50px;
+  font-family: Avenir,sans-serif;
+  line-height: 35px;
+}
+.social-media-2{
+  border: solid 0px red;
+  height: 110px;
+  width: 260px;
+  padding-top: 40px;
+  font-family: Avenir,sans-serif;
+  line-height: 35px;
+  text-align: center;
+}
+.social-media-2 a{
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  margin: 1px;
+  font-size: 12px;
+  font-weight: 400;
+
+}
+.customer-contact-3{
+  border: solid 0px red;
+  height: 110px;
+  width: 190px;
+  color: white;
+  padding-top: 60px;
+  font-family: Avenir,sans-serif;
+  line-height: 25px;
+  text-align: right;
+  
+}
+.social-media-2-logo{
+  letter-spacing: 7px;
+  font-size: 20px;
+}
+
+/* Join The Team */
+.body-next-page{
+  border: solid 0px black;
+  height: 800px;
+  width: auto;
+  background: #abb8c311;
+}
+.header-nav-next-page {
+  border: solid 0px red;
+  height: 60px;
+  width: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 601px;
+  margin-right: 100px;
+  font-family: Avenir,sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  margin-top:-64px;
+  
+}
+
+.header-nav-next-page a {
+  text-decoration: none; 
+  letter-spacing: -0.2px;
+}
+.header-nav-next-page a:hover{
+  color: #147dfa;
+}
+.header-nav-next-page a span{
+  color: #147dfa;
+}
+.head_text{
+  border: solid 0px black;
+  height: 130px;
+  width: 670px;
+  margin-left: 17%;
+ text-align: center;
+}
+.head_text h1{
+      font-family: Avenir,sans-serif;
+      font-size: 56px;
+      padding: 5px;
+      color: rgb(23,25,27);
+}
+.head_text p{
+line-height: 26px;
+font-family: Avenir,sans-serif;
+color: rgb(0,0,0);
+}
+.head_text a{
+  text-decoration: none;
+  color: #147dfa;
+}
+#see-open-vacanciation{
+  border: solid 0px black;
+  height: 45px;
+  width: 180px;
+  margin-top: 65px;
+  margin-left: 37%;
+
+  border-radius: 27px;
+  background: rgb(20,125,250);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#see-open-vacanciation h5{
+  color: white;
+  font-family:Avenir,sans-serif;
+  font-weight: 700;
+}
+.bg-image{
+  border: solid 0px black;
+  height: 400px;
+  width: 60%;
+  margin-left: 210px;
+  margin-top: 20px;
+  background-image: url(./image/careers-hero.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.body-text-down-bg-animation{
+  border: solid 0px red;
+  height: 830px;
+  width: auto;
+  background:  #7fa3c102;
+}
+.text-down-bg-animation{
+  border: solid 0px red;
+  height: 135px;
+  width: 650px;
+  margin: 45px;
+  margin-left: 260px;
+  font-family:Avenir,sans-serif ;
+}
+.text-down-bg-animation h1{
+color: rgb(23,25,27);
+font-size: 28px;
+text-align: center;
+line-height: 60px;
+
+}
+.text-down-bg-animation a{
+  text-decoration: none;
+  color: #147dfa;
+}
+.text-down-bg-animation p{
+text-align: center;
+line-height: 25px;
+}
+.location-body{
+  border: solid 1px #dfe1e6;
+  height: 70px;
+  width: 800px;
+  margin-left: 180px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+.job-team-body{
+  border: solid 0px red;
+  height: 40px;
+  width: 510px;
+  display: flex;
+  align-items: center;
+  border-radius: 27px;
+
+}
+.location-body form input{
+  border: solid 1px #dfe1e6;
+  height: 41px;
+  text-align: center;
+}
+.job-team-location-body form select{
+  border: solid 1px #dfe1e6;
+  height: 41px;
+  width: 174px;
+  margin-left: -5px;
+  background: #dfe1e62a;
+}
+.submit input{
+  border: solid 0px blue;
+  height: 41px;
+  width: 220px;
+  text-align: center;
+  border-radius: 27px;
+  background: #147dfa;
+}
+.body-text-down-bg-animation h3{
+  color: gray;
+  font-family:Avenir,sans-serif ;
+  margin-left: 130px;
+  padding: 50px;
+  font-size: 15px;
+}
+.animation-logo-globe{
+  border: solid 0px black;
+  height: 105px;
+  width: 105px;
+  margin-left: 500px;
+  background-image: url(./image/spinner.gif);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.logo-s-text{
+  border: solid 0px blue;
+  height: 250px;
+  width: auto;
+  margin-top: 60px;
+  text-align: center;
+  line-height: 25px;
+  font-family:Avenir,sans-serif ;
+  font-size: 14px;
+}
+.logo-s{
+  border: solid 0px red;
+  height: 85px;
+  width: 85px;
+  margin-left: 515px;
+  background-image: url(./image/logo.svg);
+  background-size: cover;
+}
+.logo-s-text a{
+  text-decoration: none;
+  color: #147dfa;
+}
+.main-body-image--box-text{
+  border: solid 0px black;
+  height: 430px;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image-box{
+  border: solid 0px black;
+  height: 350px;
+  width: 400px;
+  margin: 50px;
+  background-image: url(./image/what_we_do.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.image-text{
+  border: solid 0px black;
+  height: 330px;
+  width: 400px;
+  color: rgb(64,78,91);
+  font-family:Avenir,sans-serif ;
+  margin-top: 45px;
+  
+}
+.image-text h1{
+font-size: 30px;
+}
+.image-text p{
+font-size: 13px;
+line-height: 25px;
+}
+.see-open-vacanciat{
+  border: solid 0px blue;
+  height: 40px;
+  width: 160px;
+  border-radius: 27px;
+  color: white;
+  background: #147dfa;
+  font-family:Avenir,sans-serif ;
+  font-size: 13px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.image-box{
+  border: solid 0px black;
+  height: 350px;
+  width: 400px;
+  margin: 50px;
+  background-image: url(./image/surprise-team.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.image-text{
+  border: solid 0px black;
+  height: 350px;
+  width: 400px;
+  color: rgb(64,78,91);
+  font-family:Avenir,sans-serif ;
+  margin-top: 45px;
+  
+}
+.image-box{
+  border: solid 0px black;
+  height: 350px;
+  width: 400px;
+  margin: 50px;
+  background-image: url(./image/surprise-culture\ \(1\).svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.image-text{
+  border: solid 0px black;
+  height: 330px;
+  width: 400px;
+  color: rgb(64,78,91);
+  font-family:Avenir,sans-serif ;
+  margin-top: 45px;
+  
+}
+.image-box{
+  border: solid 0px black;
+  height: 350px;
+  width: 400px;
+  margin: 50px;
+  background-image: url(./image/what-we-offer.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.image-text{
+  border: solid 0px black;
+  height: 350px;
+  width: 400px;
+  color: rgb(64,78,91);
+  font-family:Avenir,sans-serif ;
+  margin-top: 45px;
+  
+}
+.Refer-a-friends{
+border: solid 0px blue;
+height: 28px;
+  width: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 27px;
+  margin-left: 520px;
+  font-family:Avenir,sans-serif ;
+  font-size: 13px;
+  font-weight: 600;
+  background: #147dfa;
+}
+.Refer-a-friends a{
+  color: white;
+}
+.logo-s-text p span{
+  color: black;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.footer-nextpage{
+  border:solid 0px yellow;
+  height: 110px;
+  width: 1000px;
+  margin-top: 75px;
+  margin-left: 109px;
+  display: flex;
+  justify-content: space-between;
+  }
+  .web-logo-text-2{
+  border: solid 0px red;
+  height: 110px;
+  width: 140px;
+  color: gray;
+  text-align: center;
+  }
+  .web-logo-text-2 h3 {
+    padding-top: 50px;
+    font-family: Avenir,sans-serif;
+    line-height: 35px;
+  }
+  .social-media-3{
+    border: solid 0px red;
+    height: 100px;
+    width: 260px;
+    padding-top: 40px;
+    font-family: Avenir,sans-serif;
+    line-height: 35px;
+    text-align: center;
+  }
+  .social-media-3 a{
+    color: gray;
+    text-align: center;
+    text-decoration: none;
+    margin: 1px;
+    font-size: 12px;
+    font-weight: 400;
+  
+  }
+  .customer-contact-4{
+    border: solid 0px red;
+    height:50px;
+    width: 190px;
+    color: gray;
+    padding-top: 60px;
+    font-family: Avenir,sans-serif;
+    line-height: 25px;
+    text-align: right;
+    
+  }
+  .social-media-3-logo{
+    letter-spacing: 7px;
+    font-size: 20px;
+  }

@@ -1,0 +1,63 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.container {
+    border: 1px solid black;
+    height: 500px;
+    width: 500px;
+    background: black;
+    padding: 20px;
+}
+
+.box {
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+    animation-name: rotate;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}
+
+.a1 {
+    background: yellow;
+}
+
+.a2 {
+    background: blue;
+    animation-delay: 1s;
+}
+
+.a3 {
+    background: red;
+    animation-delay: 2s;
+}
+
+.a4 {
+    background: green;
+    animation-delay: 3s;
+}
+
+@keyframes rotate {
+    25% {
+        margin-top: 0px;
+        margin-left: 400px;
+    }
+
+    50% {
+        margin-top: 400px;
+        margin-left: 400px;
+        transform: rotate(20turn);
+    }
+
+    75% {
+        margin-top: 400px;
+        margin-left: 0px;
+    }
+}
